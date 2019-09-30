@@ -1,0 +1,23 @@
+print("yekta")
+
+count = 0
+def myfunc():
+	num = input("Enter a number: ")
+	num = int(num)
+	for count in num:
+		if count < num:
+		print(count)
+			count+=1
+		else:
+			break
+	
+	
+myfunc()
+#iterating list
+mylist = ["a", "b", 71, "c"]
+for i in myList:
+	print (i)
+#iterating Tuple
+myTuple = ("x", "y", 71, "z")
+for t in muTuple:
+	print (t)
