@@ -18,7 +18,7 @@ print("2nd add:", int(int1) + int(int2))
 
 
 def test_func():
-    print("This is a function")
+    print("This is a Test function")
     return
 
 
