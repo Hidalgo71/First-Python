@@ -23,13 +23,15 @@ def test_func():
 
 
 test_func()
+for j in range(0, 5):
+    print(j)
+print('For loop finished.')
 
 
 def my_func():
-    count = 0
     num = input("Enter a number: ")
     num = int(num)
-    for count in num:
+    for count in range(num):
         if count < num:
             print(count)
         count += 1
@@ -37,6 +39,7 @@ def my_func():
 
 my_func()
 
+print("After my_func. \n")
 # iterating list
 my_list = ["a", "b", 71, "c"]
 for i in my_list:
