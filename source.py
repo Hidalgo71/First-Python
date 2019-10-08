@@ -28,12 +28,14 @@ for j in range(0, 5):
 print('For loop finished.')
 
 countWhile = 5
+myList = []
 while countWhile > 0:
     if countWhile == 0:
         break
     else:
-        print(countWhile, end=' ')
+        myList.append(str(countWhile)) # This for not printing last comma
     countWhile -= 1
+print(', '.join(myList))
 print("While Loop Finished.")
 
 
@@ -57,3 +59,23 @@ print("\n")
 myTuple = ("x", "y", 71, "z")
 for t in myTuple:
     print(t)
+
+# Dictionaries
+newDict = {"Yekta": 71,
+           "LeBron": 23,
+           "Kobe": 25,
+           "Jordan": 9}
+print("\n", newDict)  # it's print one line like {...}
+# print(newDict.items())
+""" for x in newDict:
+    print(x)
+    for y in newDict[x]:
+        print(y, ':', newDict[x][y]) """
+newDict["Kobe"] = 24
+print("Kobe's New Number:\n", newDict)
+newDict["Cedi"] = 10
+print("Adding New Player:\n", newDict)
+del newDict["LeBron"]
+print("After Deleting LeBron:\n", newDict)
+newDict.clear()
+print("After Clear Dict:\n", newDict)
