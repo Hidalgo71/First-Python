@@ -14,7 +14,7 @@ int1 = input("1st number:")
 int2 = input("2nd number:")
 suM = int(int1) + int(int2)
 print("Printing Sum Variable Result: ", suM)
-print("Addition int1 + int2:", int(int1) + int(int2))
+print("Product of int1 * int2:", int(int1) * int(int2))
 
 
 def test_func():
@@ -27,12 +27,21 @@ for j in range(0, 5):
     print(j)
 print('For loop finished.')
 
+countWhile = 5
+while countWhile > 0:
+    if countWhile == 0:
+        break
+    else:
+        print(countWhile, end=' ')
+    countWhile -= 1
+print("While Loop Finished.")
+
 
 def my_func():
     num = input("Enter a number: ")
     num = int(num)
     for count in range(num):
-        if count < num:
+        if count % 2 == 0:
             print(count)
 
 
@@ -42,7 +51,7 @@ print("After my_func. \n")
 # iterating list
 my_list = ["a", "b", 71, "c"]
 for i in my_list:
-    print(i)
+    print(i, end=', ')
 print("\n")
 # iterating Tuple
 myTuple = ("x", "y", 71, "z")
