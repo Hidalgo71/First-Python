@@ -13,12 +13,12 @@ print("i=", i)
 int1 = input("1st number:")
 int2 = input("2nd number:")
 suM = int(int1) + int(int2)
-print(suM)
-print("2nd add:", int(int1) + int(int2))
+print("Printing Sum Variable Result: ", suM)
+print("Addition int1 + int2:", int(int1) + int(int2))
 
 
 def test_func():
-    print("This is a Test function")
+    print("This is a Test Function Calling")
     return
 
 
@@ -34,7 +34,6 @@ def my_func():
     for count in range(num):
         if count < num:
             print(count)
-        count += 1
 
 
 my_func()
@@ -44,6 +43,7 @@ print("After my_func. \n")
 my_list = ["a", "b", 71, "c"]
 for i in my_list:
     print(i)
+print("\n")
 # iterating Tuple
 myTuple = ("x", "y", 71, "z")
 for t in myTuple:
