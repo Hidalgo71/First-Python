@@ -79,4 +79,3 @@ del newDict["LeBron"]
 print("After Deleting LeBron:\n", newDict)
 newDict.clear()
 print("After Clear Dict:\n", newDict)
-print("test push")
