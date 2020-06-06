@@ -39,6 +39,6 @@ print(b)
 print("==========================")
 # Rank 2 random values array
 
-c = np.random((2,2))
+c = np.random.random((3, 3))
 print(c)
 
