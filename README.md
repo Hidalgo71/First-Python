@@ -1,5 +1,4 @@
-First Python tries.
-
+First Python tries.\n
 Beggining of Python language.
 
 dataSecience.py is include:
