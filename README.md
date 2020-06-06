@@ -4,8 +4,8 @@ Beggining of Python language.
 
 dataSecience.py is include:
 
-•	NumPy Library
+  •	NumPy Library
 
-•	SciPy Library
+  •	SciPy Library
 
-•	Pandas Library
+  •	Pandas Library
