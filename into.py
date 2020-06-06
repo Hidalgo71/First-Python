@@ -124,12 +124,26 @@ def myArgsFun(username, greetings):  # Func definition
 
 myArgsFun("yekta Ozdemir", "great year")  # Function calling
 
+print("==========================")
 
-def sum(numbers):
+
+def sumNum(numbers):
     total = 0
     for x in numbers:
         total += x
-        return total
+
+    return total
 
 
-print(sum((3, 6, 9, 8, 78)))
+print(sumNum((33, 6, 9, 8, 78)))
+
+
+# Tuple References
+# *values = used in front of the last parameter name to donate it as a tuple reference.
+# This * is not like a C syntax
+
+def aritmethicMean(first, *values):
+    return (first + sum(values)) / (1 + len(values))
+
+
+print(aritmethicMean(2, 3, 5, 6))
