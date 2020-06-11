@@ -89,27 +89,3 @@ rowR1 = o[1, :]
 rowR2 = o[1:2, :]
 print(rowR1, rowR1.shape)
 print(rowR2, rowR2.shape)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
